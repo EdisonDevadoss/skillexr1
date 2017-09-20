@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/code-artist/Desktop/Skill/skillexr1/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.2.3/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d747543b750af0c07053f0b377e2a9340ce3bf2c">
+        <dex dex="/home/code-artist/Desktop/Skill/skillexr1/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.2.3-debug_ba22259aa1380a0f3b6f491e48a7d656a0a0611c.jar" />
+    </item>
+
+</items>
