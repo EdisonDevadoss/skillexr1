@@ -1,0 +1,56 @@
+<!--
+  Generated template for the SkillexSigninPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+    <img src="../www/assets/img/header.png" class="header" alt=""> 
+</ion-header>
+
+<ion-content color="bodyColor" padding>
+
+  <ion-list>
+    <ion-item class="inputBox" no-lines>
+      <ion-icon name="mail" outline item-start class="labelStyle"></ion-icon>
+      <!-- <ion-label floating>Email</ion-label> -->
+      <ion-input type="email" placeholder="Email"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item class="inputBox" no-lines>
+        <!-- <img src="../www/assets/img/key.png" class="labelStyle" alt=""> -->
+        <ion-icon name="key" outline item-start class="labelStyle"></ion-icon>
+        <!-- <ion-label floating>Email</ion-label> -->
+        <ion-input type="password" placeholder="Password"></ion-input>
+    </ion-item>
+  </ion-list>
+  
+    <button ion-button color="button" class="myButton rightIcon" (click)="Signin()">
+        Sign in &nbsp;
+        <span class="button-inner">   
+        <ion-icon name="arrow-round-forward" icon-right></ion-icon>
+        </span>
+    </button>
+    <br><br><br>
+
+    <div class="container">
+        <hr class="hr-text" data-content="OR">
+    </div>
+         
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <img src="../www/assets/img/social/fb.png" class="social" alt="">
+        </ion-col>
+        <ion-col>
+          <img src="../www/assets/img/social/google.png" class="social" alt="">
+        </ion-col>
+        <ion-col>
+          <img src="../www/assets/img/social/t.png" class="social" alt="">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+    <h5 class="forgetPass">Forgot Password?</h5>
+    <h5 class="report">Report <span>Signin Problem</span></h5> 
+</ion-content>

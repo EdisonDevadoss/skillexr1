@@ -1,4 +1,4 @@
-webpackJsonp([2],{
+webpackJsonp([3],{
 
 /***/ 107:
 /***/ (function(module, exports) {
@@ -21,12 +21,16 @@ webpackEmptyAsyncContext.id = 107;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"../pages/skillexr-index/skillexr-index.module": [
+	"../pages/skillex-signin/skillex-signin.module": [
 		261,
+		2
+	],
+	"../pages/skillexr-index/skillexr-index.module": [
+		262,
 		1
 	],
 	"../pages/splash/splash.module": [
-		262,
+		263,
 		0
 	]
 };
@@ -100,6 +104,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                 links: [
+                    { loadChildren: '../pages/skillex-signin/skillex-signin.module#SkillexSigninPageModule', name: 'SkillexSigninPage', segment: 'skillex-signin', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/skillexr-index/skillexr-index.module#SkillexrIndexPageModule', name: 'SkillexrIndexPage', segment: 'skillexr-index', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/splash/splash.module#SplashPageModule', name: 'SplashPage', segment: 'splash', priority: 'low', defaultHistory: [] }
                 ]
@@ -148,19 +153,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var MyApp = (function () {
     function MyApp(platform, statusBar, splashScreen, modalCtrl) {
         // rootPage:any = HomePage;
-        this.rootPage = 'SkillexrIndexPage';
+        this.rootPage = 'SkillexSigninPage';
         platform.ready().then(function () {
             // Okay, so the platform is ready and our plugins are available.
             // Here you can do any higher level native things you might need.
             statusBar.styleDefault();
-            //splashScreen.hide();
+            splashScreen.hide();
             //  let loading = loadingCtrl.create({
             //     spinner: 'bubbles',
             //     duration: 5000,
             //   });
             //   loading.present();
-            var splash = modalCtrl.create("SplashPage");
-            splash.present();
+            // let splash = modalCtrl.create("SplashPage");
+            // splash.present();
         });
     }
     return MyApp;
