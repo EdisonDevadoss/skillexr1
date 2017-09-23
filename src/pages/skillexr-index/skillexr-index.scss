@@ -1,0 +1,87 @@
+page-skillexr-index {
+    //form
+    .inputBox{
+    width: 100%;
+    padding: 0 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+   }
+   .labelStyle{
+       border-right: 1px solid #2B2A2A;
+       padding-right: 3px;
+   }
+   .myButton{
+       padding: 30px 130px;
+       text-transform: capitalize;
+   }
+   .rightIcon{
+       color: white;
+       zoom: 1.0;
+       float: right !important;
+       justify-content: flex-end;
+   }
+   
+   .buttonIcon{
+    zoom:1.0;
+    color: white;
+    display: inline-block;
+    text-align: right;
+    //padding-left: 70px;
+    // margin-right: 1px !important;
+   }
+   .icons{
+       zoom: 2.0;
+   }
+   .twoButton{
+    margin: 15px 13px 15px 25px;
+    padding: 30px 50px;
+    text-transform: capitalize;
+   }
+   ion-scroll[scrollX] {
+    white-space: nowrap;
+    .scroll-item {
+      display: inline-block;
+    }
+  }
+  .scrollContent{
+    display: inline-block;
+  }
+  .scrollImg{
+      width: 100px;
+      height: 70px;
+      border-radius: 50%;
+    //   border: 1px solid black;
+  }
+  .scrollBox{
+      box-shadow: 1px #E2DFDF;
+      display: inline-block;
+      padding: 2px 20px 20px 20px !important;
+      background-color: #F3EDED;
+      margin-bottom: 70px;
+  }
+  .badge{
+      background-color: orangered;
+  }
+  .version{ 
+      text-align: center;
+      font-weight: bold;
+  }
+  .scrollRightIcon{
+      zoom:4.0;
+      color: #020B33;
+      //margin: 10px;
+  }
+  .moreBadge{
+      background-color: #F3EDED;
+      padding: 45px 40px 40px 50px;
+  }
+  .showMore{
+      color: #020B33;
+      //margin: 100%;
+      font-size: 20px;
+      text-align: center;
+  }
+
+      
+}

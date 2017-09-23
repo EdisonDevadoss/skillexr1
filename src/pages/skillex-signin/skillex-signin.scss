@@ -1,0 +1,99 @@
+page-skillex-signin {
+    // .header{
+        
+    //     height: 30% !important;
+    // }
+//form
+    .inputBox{
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+   }
+   .labelStyle{
+       border-right: 1px solid #2B2A2A;
+       padding-right: 3px;
+   }
+   .myButton{
+       padding: 30px 130px;
+       text-transform: capitalize;
+   }
+   .rightIcon{
+       color: white;
+       zoom: 1.0;
+       float: right !important;
+       justify-content: flex-end;
+   }
+   .button-inner{
+       justify-content: flex-end;
+   }
+   
+//    hr {
+//     display: inline-block;
+//     float: left;
+//     text-align: center;
+//     width: 20px;
+//     }
+    .container {
+        max-width: 50%;  
+        margin: 40px auto;
+        text-align: center;
+        color: #000000;
+        font-family: Futura, sans-serif;
+    }
+    .hr-text {
+        line-height: 2em;
+        position: relative;
+        outline: 0;
+        border: 0;
+        color: black;
+        text-align: center;
+        height: 2.5em;
+        //opacity: .7;
+        background-color: #ffffff;
+        &:before {
+        content: '';
+        // use the linear-gradient for the fading effect
+        // use a solid background color for a solid bar
+        background: #000000;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        height: 1px;
+        }
+        &:after {
+        content: attr(data-content);
+        position: relative;
+        display: inline-block;
+        color: black;
+    
+        padding: 0 .5em;
+        line-height: 1.5em;
+        // this is really the only tricky part, you need to specify the background color of the container element...
+        color: #000000;
+        background-color: #FFFFFF;
+        }
+    }
+    .social{
+        width: 70px;
+        height: 70px;
+    }
+    .forgetPass{
+        text-decoration: underline;
+        text-align: center;
+        display: block;
+    }
+    .report {
+        text-decoration: none !important;
+        text-align: center;
+        padding-bottom: 70px;
+    } 
+    .report span{
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+
+}

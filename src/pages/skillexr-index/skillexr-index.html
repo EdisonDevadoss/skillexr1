@@ -1,0 +1,169 @@
+<!--
+  Generated template for the SkillexrIndexPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+  <img src="../www/assets/img/header.png" class="header" alt=""> 
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+        <!-- <i class="fa fa-users" aria-hidden="true"></i>         -->
+        <div class="inputBox" no-lines>
+          <ion-grid>
+            <ion-row>
+              <ion-col col-2>
+                <i class="fa fa-users icons" aria-hidden="true"></i> 
+              </ion-col>
+              <ion-col col-10 pull>
+                <ion-input type="text" placeholder="Service/Name"></ion-input>
+              </ion-col>
+            </ion-row>
+          </ion-grid>           
+        </div>
+        <br>
+        <div class="inputBox" no-lines>
+            <ion-grid>
+              <ion-row>
+                <ion-col col-2>
+                  <i class="fa fa-map-marker icons" aria-hidden="true"></i> 
+                </ion-col>
+                <ion-col col-10 pull>
+                  <ion-input type="text" placeholder="Location"></ion-input>
+                </ion-col>
+              </ion-row>
+            </ion-grid>           
+          </div>
+      </ion-list>
+      
+        <button ion-button color="button" class="myButton" (click)="Search()">
+            Search
+            <i class="fa fa-arrow-right buttonIcon"  aria-hidden="true"></i>            
+            <!-- <span class="button-inner">   
+            <ion-icon name="arrow-round-forward" icon-right></ion-icon>
+            </span> -->
+        </button>
+
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <button ion-button color="button" class="twoButton rightIcon" (click)="Signin()">
+                Signin
+              </button>
+            </ion-col>
+            <ion-col>
+                <button ion-button color="button" class="twoButton rightIcon" (click)="SignUp()">
+                  SignUP
+                </button>
+              </ion-col>
+          </ion-row>
+        </ion-grid>
+
+          <ion-label style="font-weight:bold;">
+            Suggested Badge
+          </ion-label>
+            <ion-scroll scrollX style="padding: 125px;">
+                <ion-row class="scrollContent">
+                    <ion-col>
+                      <div class="scrollBox">
+                        <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                        <ion-label style="font-weight:bold">Edison</ion-label>
+                        <ion-label>FreeLancer</ion-label>
+                        <ion-label>
+                          <ion-badge class="badge">copywiting</ion-badge>+3
+                        </ion-label>
+                        <hr style="color:black; width:30px;">
+                        <ion-label>Chennai</ion-label>
+                      </div>
+                    </ion-col> 
+                    <ion-col>
+                      <div class="scrollBox">
+                        <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                        <ion-label style="font-weight:bold">Edison</ion-label>
+                        <ion-label>FreeLancer</ion-label>
+                        <ion-label>
+                          <ion-badge class="badge">copywiting</ion-badge>+3
+                        </ion-label>
+                        <hr style="color:black; width:30px;">
+                        <ion-label>Chennai</ion-label>
+                        </div>
+                    </ion-col> 
+                </ion-row>
+                <ion-row class="scrollContent">
+                    <ion-col>
+                      <div class="scrollBox">
+                        <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                        <ion-label style="font-weight:bold">Edison</ion-label>
+                        <ion-label>FreeLancer</ion-label>
+                        <ion-label>
+                          <ion-badge class="badge">copywiting</ion-badge>+3
+                        </ion-label>
+                        <hr style="color:black; width:30px;">
+                        <ion-label>Chennai</ion-label>
+                      </div>
+                    </ion-col> 
+                    <ion-col>
+                      <div class="scrollBox">
+                        <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                        <ion-label style="font-weight:bold">Edison</ion-label>
+                        <ion-label>FreeLancer</ion-label>
+                        <ion-label>
+                          <ion-badge class="badge">copywiting</ion-badge>+3
+                        </ion-label>
+                        <hr style="color:black; width:30px;">
+                        <ion-label>Chennai</ion-label>
+                      </div>
+                    </ion-col> 
+                </ion-row>
+                <ion-row class="scrollContent">
+                    <ion-col>
+                      <div class="scrollBox">
+                        <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                        <ion-label style="font-weight:bold">Edison</ion-label>
+                        <ion-label>FreeLancer</ion-label>
+                        <ion-label>
+                          <ion-badge class="badge">copywiting</ion-badge>+3
+                        </ion-label>
+                        <hr style="color:black; width:30px;">
+                        <ion-label>Chennai</ion-label>
+                      </div>
+                    </ion-col> 
+                    <ion-col>
+                      <div class="scrollBox">
+                        <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                        <ion-label style="font-weight:bold">Edison</ion-label>
+                        <ion-label>FreeLancer</ion-label>
+                        <ion-label>
+                          <ion-badge class="badge">copywiting</ion-badge>+3
+                        </ion-label>
+                        <hr style="color:black; width:30px;">
+                        <ion-label>Chennai</ion-label>
+                      </div>
+                    </ion-col> 
+                </ion-row>
+                <ion-row class="scrollContent">
+                  <ion-col>
+                    <div class="moreBadge">
+                        <i class="fa fa-angle-double-right scrollRightIcon" aria-hidden="true"></i> 
+                        <h3 class="showMore">
+                          Show <br>
+                          More
+                        </h3>                       
+                    </div>
+                  </ion-col>
+                </ion-row>
+            </ion-scroll>
+          <ion-list class="version">
+              <ion-label>
+                  Version
+                </ion-label>
+                <ion-label>
+                  0.0.71
+                </ion-label>  
+          </ion-list>  
+          
+          
+</ion-content>
